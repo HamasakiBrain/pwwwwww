@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="uk-container-default" id="pw-register">
+    <div class="uk-container-default" id="pw-login">
 
         <div class="uk-container-default pw-navbar">
 
@@ -50,7 +50,7 @@
 
                         <div class="form-submit">
                             <li>
-                                <a href="#" class="link">Войти</a>
+                                <a href="login.html" class="link">Войти</a>
                             </li>
                             <li>
                                 <a href="#" class="link">Регистрация</a>
@@ -65,30 +65,30 @@
 
         </div>
 
-        <div class="uk-container pw-register">
+        <div class="uk-container pw-login">
 
-            <div class="uk-child-width-1-3@s pw-register_column" uk-grid>
+            <div class="uk-child-width-1-3@s pw-login_column" uk-grid>
 
-                <div class="pw-register_column-first"></div>
+                <div class="pw-login_column-first"></div>
 
-                <div class="pw-register_column-second">
+                <div class="pw-login_column-second">
 
-                    <h1>Вход</h1>
+                    <h1>Регистрация</h1>
 
-                    <form class="pw-register_column-second_form">
-                        <input type="text" placeholder="Ник">
-                        <input type="password" placeholder="Пароль">
-                        <div class="pw-register_column-second_form-ad">Капча</div>
-                        <a class="pw-register_column-second_form-btn" href="#">Авторизоваться</a>
-                        <div class="pw-register_column-second_form-reg">
-                            <a href="#">Регистрация</a>
-                            <a href="#">Забыли пароль?</a>
+                    <form class="pw-login_column-second_form">
+                        <input type="text" class="is-invalid" placeholder="Ник">
+                        <input type="password" class="is-invalid" placeholder="Пароль">
+                        <div class="pw-login_column-second_form-ad">Капча</div>
+                        <button class="pw-login_column-second_form-btn" href="#">Регистрация</button>
+                        <div class="pw-login_column-second_form-reg">
+                            <a class="pw-login_column-second_form-reg_btn" href="login.html">Войти</a>
+                            <a class="pw-login_column-second_form-reg_password" href="#">Забыли пароль?</a>
                         </div>
                     </form>
 
                 </div>
 
-                <div class="pw-register_column-last"></div>
+                <div class="pw-login_column-last"></div>
 
             </div>
 

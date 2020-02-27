@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="uk-container-default" id="pw-rules">
+    <div class="uk-container-default" id="pw-login">
 
         <div class="uk-container-default pw-navbar">
 
@@ -50,7 +50,7 @@
 
                         <div class="form-submit">
                             <li>
-                                <a href="login.html" class="link">Войти</a>
+                                <a href="#" class="link">Войти</a>
                             </li>
                             <li>
                                 <a href="registration.html" class="link">Регистрация</a>
@@ -65,21 +65,31 @@
 
         </div>
 
-        <div class="uk-container pw-rules">
+        <div class="uk-container pw-login">
 
-            <h1>Наши правила</h1>
+            <div class="uk-child-width-1-3@s pw-login_column" uk-grid>
 
-            <div>
-                <ol>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                    <li>ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</li>
-                </ol>
+                <div class="pw-login_column-first"></div>
+
+                <div class="pw-login_column-second">
+
+                    <h1>Вход</h1>
+
+                    <form class="pw-login_column-second_form">
+                        <input type="text" class="is-invalid" placeholder="Ник">
+                        <input type="password" class="is-invalid" placeholder="Пароль">
+                        <div class="pw-login_column-second_form-ad">Капча</div>
+                        <button class="pw-login_column-second_form-btn" href="#">Войти</button>
+                        <div class="pw-login_column-second_form-reg">
+                            <a class="pw-login_column-second_form-reg_btn" href="registration.html">Регистрация</a>
+                            <a class="pw-login_column-second_form-reg_password" href="#">Забыли пароль?</a>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="pw-login_column-last"></div>
+
             </div>
 
         </div>

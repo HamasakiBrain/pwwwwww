@@ -1,3 +1,7 @@
+.is-invalid {
+  border: 1px solid #ea0000 !important;
+}
+
 #pw-main {
   background-image: url("../img/Main/bg-i.svg");
   background-repeat: no-repeat;
@@ -567,11 +571,11 @@
   font-size: 14px;
 }
 
-#pw-register {
+#pw-login {
   height: 100vh;
 }
 
-#pw-register .pw-register_column-second h1 {
+#pw-login .pw-login_column-second h1 {
   text-align: center;
   color: #000000;
   font-family: "MontserratAlternates - Regular";
@@ -580,7 +584,7 @@
   margin-bottom: 30px;
 }
 
-#pw-register .pw-register_column-second_form {
+#pw-login .pw-login_column-second_form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,7 +597,7 @@
           flex-direction: column;
 }
 
-#pw-register .pw-register_column-second_form input {
+#pw-login .pw-login_column-second_form input {
   width: 400px;
   height: 60px;
   border-radius: 5px;
@@ -607,7 +611,7 @@
   font-size: 18px;
 }
 
-#pw-register .pw-register_column-second_form-ad {
+#pw-login .pw-login_column-second_form-ad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,7 +631,8 @@
   text-transform: uppercase;
 }
 
-#pw-register .pw-register_column-second_form-btn {
+#pw-login .pw-login_column-second_form-btn {
+  border: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -647,7 +652,7 @@
   text-decoration: none;
 }
 
-#pw-register .pw-register_column-second_form-reg {
+#pw-login .pw-login_column-second_form-reg {
   margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -661,7 +666,7 @@
           align-items: flex-end;
 }
 
-#pw-register .pw-register_column-second_form-reg a:first-child {
+#pw-login .pw-login_column-second_form-reg a:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,20 +686,20 @@
   text-decoration: none;
 }
 
-#pw-register .pw-register_column-second_form-reg a:last-child {
+#pw-login .pw-login_column-second_form-reg a:last-child {
   color: #000000;
   font-family: "MontserratAlternates - Regular";
   font-size: 14px;
 }
 
-#pw-register .pw-rights {
+#pw-login .pw-rights {
   width: 100vw;
   text-align: center;
   position: absolute;
   bottom: 30px;
 }
 
-#pw-register .pw-rights span {
+#pw-login .pw-rights span {
   color: #000000;
   font-family: "MontserratAlternates - Regular";
   font-size: 13px;
@@ -740,21 +745,89 @@
   color: #000000;
   font-family: "MontserratAlternates - Regular";
   font-size: 24px;
-  margin: 60px 0 60px 0;
+  margin: 60px 0 70px 0;
 }
 
-#pw-install .pw-install div h2 {
-  font-family: "Montserrat - Bold", sans-serif;
+#pw-install .pw-install_description {
+  margin-bottom: 100px;
+}
+
+#pw-install .pw-install_description h2 {
+  font-family: "MontserratAlternates - Regular";
   color: #000000;
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 100px;
+}
+
+#pw-install .pw-install_description p {
+  color: #000000;
+  font-family: "MontserratAlternates - Regular";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#pw-install .pw-install_OS div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pw-install .pw-install_OS div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 290px;
+  height: 210px;
+  padding: 20px 0px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+#pw-install .pw-install_OS div div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 268px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: "MontserratAlternates - Regular";
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#pw-install .pw-install_OS div div a span {
+  font-family: "MontserratAlternates - Regular";
+  font-weight: 700;
+  margin-left: 5px;
 }
 
 #pw-install .pw-rights {
-  width: 100vw;
+  padding: 20px 0;
   text-align: center;
-  position: absolute;
-  bottom: 30px;
 }
 
 #pw-install .pw-rights span {
@@ -765,13 +838,7 @@
 
 @font-face {
   font-family: 'MontserratAlternates - Regular';
-  src: url("../Fonts/Montserrat Alternates/MontserratAlternates-Regular.ttf") format("truetype");
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: 'Montserrat - Bold';
-  src: url("../Fonts/Montserrat/montserratbold.ttf") format("truetype");
+  src: url("../Fonts/MontserratAlternates-Regular.ttf") format("truetype");
   font-display: fallback;
 }
 
