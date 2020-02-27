@@ -11,7 +11,7 @@
     &_logo
         a
             color: #000
-            font-family: "MontserratAlternate - Regular"
+            font-family: "MontserratAlternates - Regular"
             font-size: 36px
             text-decoration: none
             &:hover
@@ -25,14 +25,14 @@
             margin: 0 15px
         span
             color: #666
-            font-family: "MontserratAlternate - Regular"
+            font-family: "MontserratAlternates - Regular"
             font-size: 18px
     &_nav
         ul
             li.before-anim
                 a
                     color: #000
-                    font-family: "MontserratAlternate - Regular"
+                    font-family: "MontserratAlternates - Regular"
                     font-size: 14px
                     text-transform: capitalize
                     text-align: center
@@ -83,7 +83,7 @@
     height: 84vh
     &_description
         h1
-            font-family: "MontserratAlternate - Regular"
+            font-family: "MontserratAlternates - Regular"
             font-size: 40px
             color: #fff
             margin-bottom: 110px
@@ -111,17 +111,17 @@
             box-shadow: 5px 5px 0px 0px rgba(45, 156, 219, 0.5)
             transition: .5s
             // text-style
-            color: #fff
-            font-family: "MontserratAlternate - Regular"
+            color: #fff !important
+            font-family: "MontserratAlternates - Regular"
             font-size: 28px
-            text-decoration: none
+            text-decoration: none !important
             img
                 position: absolute
                 right: 35px
                 animation-name: pw-arrow
                 animation-duration: 2s
                 animation-iteration-count: infinite
-                animation-delay: 2s
+                animation-delay: 2s 
             &:hover
                 box-shadow: 0px 0px 0px 0px rgba(45, 156, 219, 0.5)
     &_faq
@@ -135,9 +135,9 @@
             height: 45px
             box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.25)
             border-radius: 5px
-            background-color: #2d9cdb
+            background-color: #2d9cdb   
             margin-bottom: 20px
-            text-decoration: none
+            text-decoration: none !important
             transition: .5s
             &:hover
                 box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.5)
@@ -157,16 +157,16 @@
                     transition: .5s
                     // text-style
                     color: #000
-                    font-family: "MontserratAlternate - Regular"
+                    font-family: "MontserratAlternates - Regular"
                     font-size: 18px
             h1
                 color: rgba(255, 255, 255, 0.7)
-                font-family: "MontserratAlternate - Regular"
+                font-family: "MontserratAlternates - Regular"
                 font-size: 11px
                 margin: 0
             p
                 color: rgba(255, 255, 255, 0.5)
-                font-family: "MontserratAlternate - Regular"
+                font-family: "MontserratAlternates - Regular"
                 font-size: 6px
                 margin: 0
     &_rights
@@ -176,190 +176,191 @@
         text-align: center
         p
             color: #000
-            font-family: "MontserratAlternate - Regular"
+            font-family: "MontserratAlternates - Regular"
             font-size: 13px
-.pw-news
-    padding-top: 100px
-    &_slider
-        position: relative
-        ul
-            li
-                background-image: url("../img/News/bg-news.png")
-                background-size: cover
-                background-repeat: no-repeat
-                width: 530px
-                height: 325px
-                border-radius: 5px
-                margin-left: 30px
-                margin-right: 30px
-                position: relative
-                h1
-                    color: #ffffff
-                    font-family: "MontserratAlternate - Regular"
-                    font-size: 36px
-                    margin-top: 40px
-                    margin-left: 50px
-                & > div
-                    display: flex
-                    position: absolute
-                    bottom: 40px
-                    left: 50px
-                    div
-                        span
-                            font-family: "MontserratAlternate - Regular"
-                            color: rgba(255, 255, 255, 0.6)
-                            font-size: 18px
-                    a
-                        display: inline-flex
-                        justify-content: center
-                        align-items: center
-                        margin-left: 55px
-                        width: 240px
-                        height: 50px
-                        border-radius: 3px
-                        background-color: #2f80ed
-                        // text-style
-                        color: #ffffff
-                        font-family: "MontserratAlternate - Regular"
-                        font-size: 18px
-                        text-decoration: none
-        & > div
-            float: right
-            margin-right: 200px
-            margin-top: 40px
-            a
-                margin-right: 20px
-                &:last-child
-                    margin-right: 0
-    &_rating
-        display: flex
-        align-items: flex-end
-        margin-top: 20px
-        &-rich
-            h1
-                color: #000000
-                font-family: "MontserratAlternate - Regular"
-                font-size: 36px
-            ul
-                padding: 0
-                list-style: none
-                margin: 0
-                li
-                    width: 400px
-                    height: 75px
-                    display: flex
-                    align-items: center
-                    background-color: rgba(45, 156, 219, 0.57)
-                    margin-bottom: 5px
-                    position: relative
-                    &:last-child
-                        margin-bottom: 0
-                        justify-content: center
-                    img
-                        margin: 10px
-                    span
-                        font-family: "MontserratAlternate - Regular"
-                        color: #000000
-                        font-size: 24px
-                        &:first-child
-                            margin-left: 30px
-                        &:last-child
-                            position: absolute
-                            right: 30px
-                    a
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        width: 300px
-                        height: 50px
-                        border-radius: 3px
-                        background-color: #2f80ed
-                        // text-style
-                        font-family: "MontserratAlternate - Regular"
-                        color: #ffffff
-                        font-size: 18px
-                        text-decoration: none
-        &-voting
-            padding-left: 35px
-            h1
-                color: #000000
-                font-family: "MontserratAlternate - Regular"
-                font-size: 36px
-            ul
-                padding: 0
-                list-style: none
-                margin: 0
-                li
-                    width: 400px
-                    height: 75px
-                    display: flex
-                    align-items: center
-                    background-color: rgba(45, 156, 219, 0.57)
-                    margin-bottom: 5px
-                    position: relative
-                    &:last-child
-                        margin-bottom: 0
-                        justify-content: center
-                    img
-                        margin: 10px
-                    span
-                        font-family: "MontserratAlternate - Regular"
-                        color: #000000
-                        font-size: 24px
-                        &:first-child
-                            margin-left: 30px
-                        &:last-child
-                            position: absolute
-                            right: 80px
-                    a
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        width: 230px
-                        height: 50px
-                        border-radius: 3px
-                        background-color: #2f80ed
-                        position: relative
-                        z-index: 2
-                        // text-style
-                        font-family: "MontserratAlternate - Regular"
-                        color: #ffffff
-                        font-size: 18px
-                        text-decoration: none
-                    &:last-child
-                        img
-                            margin: -3px
-        &-description
-            background-image: url("../img/News/playworld.png")
-            background-repeat: no-repeat
-            background-size: cover
-            width: 325px
-            height: 325px
-            margin-left: 35px
+#pw-news
+    .pw-news
+        padding-top: 100px
+        &_slider
             position: relative
+            ul
+                li
+                    background-image: url("../img/News/bg-news.png")
+                    background-size: cover
+                    background-repeat: no-repeat
+                    width: 530px
+                    height: 325px
+                    border-radius: 5px
+                    margin-left: 30px
+                    margin-right: 30px
+                    position: relative
+                    h1
+                        color: #ffffff
+                        font-family: "MontserratAlternates - Regular"
+                        font-size: 36px
+                        margin-top: 40px
+                        margin-left: 50px
+                    & > div
+                        display: flex
+                        position: absolute
+                        bottom: 40px
+                        left: 50px
+                        div
+                            span
+                                font-family: "MontserratAlternates - Regular"
+                                color: rgba(255, 255, 255, 0.6)
+                                font-size: 18px
+                        a
+                            display: inline-flex
+                            justify-content: center
+                            align-items: center
+                            margin-left: 55px
+                            width: 240px
+                            height: 50px
+                            border-radius: 3px
+                            background-color: #2f80ed
+                            // text-style
+                            color: #ffffff
+                            font-family: "MontserratAlternates - Regular"
+                            font-size: 18px
+                            text-decoration: none
+            & > div
+                float: right
+                margin-right: 200px
+                margin-top: 40px
+                a
+                    margin-right: 20px
+                    &:last-child
+                        margin-right: 0
+        &_rating
+            display: flex
+            align-items: flex-end
+            margin-top: 20px
+            &-rich
+                h1
+                    color: #000000
+                    font-family: "MontserratAlternates - Regular"
+                    font-size: 36px
+                ul
+                    padding: 0
+                    list-style: none
+                    margin: 0
+                    li
+                        width: 400px
+                        height: 75px
+                        display: flex
+                        align-items: center
+                        background-color: rgba(45, 156, 219, 0.57)
+                        margin-bottom: 5px
+                        position: relative
+                        &:last-child
+                            margin-bottom: 0
+                            justify-content: center
+                        img
+                            margin: 10px
+                        span
+                            font-family: "MontserratAlternates - Regular"
+                            color: #000000
+                            font-size: 24px
+                            &:first-child
+                                margin-left: 30px
+                            &:last-child
+                                position: absolute
+                                right: 30px
+                        a
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 300px
+                            height: 50px
+                            border-radius: 3px
+                            background-color: #2f80ed
+                            // text-style
+                            font-family: "MontserratAlternates - Regular"
+                            color: #ffffff
+                            font-size: 18px
+                            text-decoration: none
+            &-voting
+                padding-left: 35px
+                h1
+                    color: #000000
+                    font-family: "MontserratAlternates - Regular"
+                    font-size: 36px
+                ul
+                    padding: 0
+                    list-style: none
+                    margin: 0
+                    li
+                        width: 400px
+                        height: 75px
+                        display: flex
+                        align-items: center
+                        background-color: rgba(45, 156, 219, 0.57)
+                        margin-bottom: 5px
+                        position: relative
+                        &:last-child
+                            margin-bottom: 0
+                            justify-content: center
+                        img
+                            margin: 10px
+                        span
+                            font-family: "MontserratAlternates - Regular"
+                            color: #000000
+                            font-size: 24px
+                            &:first-child
+                                margin-left: 30px
+                            &:last-child
+                                position: absolute
+                                right: 80px
+                        a
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 230px
+                            height: 50px
+                            border-radius: 3px
+                            background-color: #2f80ed
+                            position: relative
+                            z-index: 2
+                            // text-style
+                            font-family: "MontserratAlternates - Regular"
+                            color: #ffffff
+                            font-size: 18px
+                            text-decoration: none
+                        &:last-child
+                            img
+                                margin: -3px
+            &-description
+                background-image: url("../img/News/playworld.png")
+                background-repeat: no-repeat
+                background-size: cover
+                width: 325px
+                height: 325px
+                margin-left: 35px
+                position: relative
+                span
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 350px
+                    height: 86px
+                    border-radius: 10px
+                    background-color: #ffffff
+                    position: absolute
+                    left: -100px
+                    top: -40px
+                    // text-style
+                    color: #000000
+                    font-family: "MontserratAlternates - Regular"
+                    font-size: 24px
+                    text-align: center
+        &_rights
+            text-align: center
+            padding: 20px 0px
             span
-                display: flex
-                justify-content: center
-                align-items: center
-                width: 350px
-                height: 86px
-                border-radius: 10px
-                background-color: #ffffff
-                position: absolute
-                left: -100px
-                top: -40px
-                // text-style
                 color: #000000
-                font-family: "MontserratAlternate - Regular"
-                font-size: 24px
-                text-align: center
-    &_rights
-        text-align: center
-        padding: 20px 0px
-        span
-            color: #000000
-            font-family: "MontserratAlternate - Regular"
-            font-size: 13px
+                font-family: "MontserratAlternates - Regular"
+                font-size: 13px
 .form
     &-submit
         margin-left: 20px
@@ -369,8 +370,142 @@
         flex-flow: column
         li > a 
             color: #000
-            font-family: "MontserratAlternate - Regular"
+            font-family: "MontserratAlternates - Regular"
             text-decoration: none !important
             font-size: 14px
-                
-
+#pw-register
+    height: 100vh
+    .pw-register
+        &_column
+            &-second
+                h1
+                    text-align: center
+                    color: #000000
+                    font-family: "MontserratAlternates - Regular"
+                    font-size: 24px
+                    margin-top: 30px
+                    margin-bottom: 30px
+                &_form
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    input
+                        width: 400px
+                        height: 60px
+                        border-radius: 5px
+                        border: 1px solid #000000
+                        margin-bottom: 30px
+                        text-align: center
+                        padding-left: 10px
+                        padding-right: 10px
+                        // text-style
+                        color: #000000
+                        font-family: "MontserratAlternates - Regular"
+                        font-size: 18px
+                    &-ad
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 420px
+                        height: 53px
+                        border: 2px solid #000000
+                        margin-bottom: 15px
+                        // text-style
+                        color: #000000
+                        font-family: "MontserratAlternates - Regular"
+                        font-size: 18px
+                        text-transform: uppercase
+                    &-btn
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 420px
+                        height: 40px
+                        border-radius: 3px
+                        background-color: #2f80ed
+                        // text-style
+                        font-family: "MontserratAlternates - Regular"
+                        color: #ffffff
+                        font-size: 14px
+                        text-decoration: none
+                    &-reg
+                        margin-top: 15px
+                        display: flex
+                        width: 420px
+                        justify-content: space-between
+                        align-items: flex-end
+                        a
+                            &:first-child
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                width: 180px
+                                height: 40px
+                                border-radius: 3px
+                                background-color: #ffa000
+                                // text-style
+                                color: #ffffff
+                                font-family: "MontserratAlternates - Regular"
+                                font-size: 14px
+                                text-decoration: none
+                            &:last-child
+                                color: #000000
+                                font-family: "MontserratAlternates - Regular"
+                                font-size: 14px
+    .pw-rights
+        width: 100vw
+        text-align: center
+        position: absolute
+        bottom: 30px
+        span
+            color: #000000
+            font-family: "MontserratAlternates - Regular"
+            font-size: 13px
+#pw-rules
+    height: 100vh
+    .pw-rules
+        h1
+            text-align: center
+            color: #000000
+            font-family: "MontserratAlternates - Regular"
+            font-size: 24px
+            margin: 60px 0 60px 0
+        div
+            ol
+                li
+                    color: rgba(0, 0, 0, 0.5)
+                    font-family: "MontserratAlternates - Regular"
+                    font-size: 18px
+    .pw-rights
+        width: 100vw
+        text-align: center
+        position: absolute
+        bottom: 30px
+        span
+            color: #000000
+            font-family: "MontserratAlternates - Regular"
+            font-size: 13px
+#pw-install
+    height: 100vh
+    .pw-install
+        h1
+            text-align: center
+            color: #000000
+            font-family: "MontserratAlternates - Regular"
+            font-size: 24px
+            margin: 60px 0 60px 0
+        div
+            h2
+                font-family: "Montserrat - Bold", sans-serif
+                color: #000000
+                font-size: 18px
+                font-weight: 700
+    .pw-rights
+        width: 100vw
+        text-align: center
+        position: absolute
+        bottom: 30px
+        span
+            color: #000000
+            font-family: "MontserratAlternates - Regular"
+            font-size: 13px
